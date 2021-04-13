@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>testDatabaseConnection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fab4103-666e-4ebf-8ef4-ba19bcd3bba8</testCaseGuid>
+</TestCaseEntity>

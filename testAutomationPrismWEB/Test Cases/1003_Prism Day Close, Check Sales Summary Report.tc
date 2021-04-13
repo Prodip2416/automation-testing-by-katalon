@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1003_Prism Day Close, Check Sales Summary Report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16b51260-92a0-4ec7-93ff-479ede79f685</testCaseGuid>
+   <variable>
+      <defaultValue>1003</defaultValue>
+      <description></description>
+      <id>a9934b48-d6b5-4343-b96c-66a707fc978c</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+</TestCaseEntity>

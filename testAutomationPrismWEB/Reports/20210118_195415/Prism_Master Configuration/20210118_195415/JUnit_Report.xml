@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prism_Master Configuration" time="15.069" tests="1" failures="0" skips="0" errors="1">
+   <testsuite name="Prism_Master Configuration" tests="1" failures="0" errors="1" time="15.069" skips="0" timestamp="2021-01-18 19:54:22" hostname="User - foysal-LPTP" id="Test Suites/Prism_Master Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210118_195415\\Prism_Master Configuration\\20210118_195415"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210118_195415\\Prism_Master Configuration\\20210118_195415\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.1.167"/>
+         <property name="sessionId" value="aa24ad7c23d19449cc66bbd2ed436b81"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" time="14.308" classname="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" status="ERROR">
+         <error type="ERROR" message="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.1.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa24ad7c23d19449cc66bbd2ed436b81
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:463)
+	at org.openqa.selenium.WebElement$getText$1.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:315)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610978055279.run(TempTestSuite1610978055279.groovy:39)
+"/>
+         <system-out><![CDATA[2021-01-18 19:54:23 - [TEST_CASE][ERROR] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.1.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa24ad7c23d19449cc66bbd2ed436b81
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:463)
+	at org.openqa.selenium.WebElement$getText$1.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:315)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610978055279.run(TempTestSuite1610978055279.groovy:39)
+
+
+2021-01-18 19:54:23 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-18 19:54:24 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-18 19:54:24 - [TEST_STEP][PASSED] - sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id: null
+
+2021-01-18 19:54:24 - [TEST_STEP][PASSED] - recordset = com.database.sqlserver.executeQuery(sql): com.database.sqlserver.executeQuery is PASSED
+
+2021-01-18 19:54:24 - [MESSAGE][PASSED] - com.database.sqlserver.executeQuery is PASSED
+
+2021-01-18 19:54:24 - [TEST_STEP][ERROR] - while (recordset.next()): stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.1.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa24ad7c23d19449cc66bbd2ed436b81
+
+2021-01-18 19:54:24 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 19:54:24 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.loginIntoApplication is PASSED
+
+2021-01-18 19:54:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-18 19:54:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-18 19:54:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-18 19:54:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-18 19:54:31 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.11/prismv2/' successfully
+
+2021-01-18 19:54:31 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2021-01-18 19:54:32 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2021-01-18 19:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2021-01-18 19:54:32 - [MESSAGE][PASSED] - com.application.components.loginIntoApplication is PASSED
+
+2021-01-18 19:54:32 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 19:54:32 - [TEST_STEP][ERROR] - $comp_name(): stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.1.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa24ad7c23d19449cc66bbd2ed436b81
+
+2021-01-18 19:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2021-01-18 19:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2021-01-18 19:54:33 - [MESSAGE][PASSED] - Text '95' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2021-01-18 19:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2021-01-18 19:54:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-18 19:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/sectionDropdown' is clicked on
+
+2021-01-18 19:54:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-18 19:54:36 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Route/Add Route/input_select2'
+
+2021-01-18 19:54:36 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2021-01-18 19:54:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2021-01-18 19:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/button_Create Route' is clicked on
+
+2021-01-18 19:54:37 - [MESSAGE][PASSED] - Object 'Object Repository/Route/Add Route/routeConfirmation' is present
+
+2021-01-18 19:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Route Planning' is clicked on
+
+2021-01-18 19:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Browse Route' is clicked on
+
+2021-01-18 19:54:37 - [MESSAGE][ERROR] - stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.1.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa24ad7c23d19449cc66bbd2ed436b81]]></system-out>
+         <system-err><![CDATA[2021-01-18 19:54:23 - [TEST_CASE][ERROR] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.1.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa24ad7c23d19449cc66bbd2ed436b81
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:463)
+	at org.openqa.selenium.WebElement$getText$1.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:315)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610978055279.run(TempTestSuite1610978055279.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-18 19:54:22 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-out>
+      <system-err><![CDATA[2021-01-18 19:54:22 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-err>
+   </testsuite>
+</testsuites>

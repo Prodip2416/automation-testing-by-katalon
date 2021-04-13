@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prism_Master Configuration" time="16.159" tests="1" failures="1" skips="0" errors="0">
+   <testsuite name="Prism_Master Configuration" tests="1" failures="1" errors="0" time="16.159" skips="0" timestamp="2021-01-19 01:03:17" hostname="User - foysal-LPTP" id="Test Suites/Prism_Master Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_010259\\Prism_Master Configuration\\20210119_010300"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_010259\\Prism_Master Configuration\\20210119_010300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="hostAddress" value="192.168.6.153"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" time="14.254" classname="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:61)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at com.application.components.loginIntoApplication(components.groovy:37)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610996580978.run(TempTestSuite1610996580978.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8C0C3+3326147]
+	Ordinal0 [0x00A70851+2164817]
+	Ordinal0 [0x008F7140+618816]
+	Ordinal0 [0x008ED404+578564]
+	Ordinal0 [0x008EDACB+580299]
+	Ordinal0 [0x008EED35+585013]
+	Ordinal0 [0x008E9D61+564577]
+	Ordinal0 [0x008F82C0+623296]
+	Ordinal0 [0x00896BDD+224221]
+	Ordinal0 [0x00895CAC+220332]
+	Ordinal0 [0x0089189B+202907]
+	Ordinal0 [0x00873DF4+81396]
+	Ordinal0 [0x00874DEE+85486]
+	Ordinal0 [0x00874D79+85369]
+	Ordinal0 [0x00A885DC+2262492]
+	GetHandleVerifier [0x00D12874+1487204]
+	GetHandleVerifier [0x00D123CD+1486013]
+	GetHandleVerifier [0x00D1A368+1518680]
+	GetHandleVerifier [0x00D12F4E+1488958]
+	Ordinal0 [0x00A7ED0D+2223373]
+	Ordinal0 [0x00A8A12B+2269483]
+	Ordinal0 [0x00A8A26F+2269807]
+	Ordinal0 [0x00A9ECB8+2354360]
+	BaseThreadInitThunk [0x74FE6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77728944+228]
+	RtlGetAppContainerNamedObjectPath [0x77728914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2021-01-19 01:03:19 - [TEST_CASE][FAILED] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:61)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at com.application.components.loginIntoApplication(components.groovy:37)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610996580978.run(TempTestSuite1610996580978.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8C0C3+3326147]
+	Ordinal0 [0x00A70851+2164817]
+	Ordinal0 [0x008F7140+618816]
+	Ordinal0 [0x008ED404+578564]
+	Ordinal0 [0x008EDACB+580299]
+	Ordinal0 [0x008EED35+585013]
+	Ordinal0 [0x008E9D61+564577]
+	Ordinal0 [0x008F82C0+623296]
+	Ordinal0 [0x00896BDD+224221]
+	Ordinal0 [0x00895CAC+220332]
+	Ordinal0 [0x0089189B+202907]
+	Ordinal0 [0x00873DF4+81396]
+	Ordinal0 [0x00874DEE+85486]
+	Ordinal0 [0x00874D79+85369]
+	Ordinal0 [0x00A885DC+2262492]
+	GetHandleVerifier [0x00D12874+1487204]
+	GetHandleVerifier [0x00D123CD+1486013]
+	GetHandleVerifier [0x00D1A368+1518680]
+	GetHandleVerifier [0x00D12F4E+1488958]
+	Ordinal0 [0x00A7ED0D+2223373]
+	Ordinal0 [0x00A8A12B+2269483]
+	Ordinal0 [0x00A8A26F+2269807]
+	Ordinal0 [0x00A9ECB8+2354360]
+	BaseThreadInitThunk [0x74FE6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77728944+228]
+	RtlGetAppContainerNamedObjectPath [0x77728914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2021-01-19 01:03:19 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 01:03:19 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 01:03:19 - [TEST_STEP][PASSED] - sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id: null
+
+2021-01-19 01:03:19 - [TEST_STEP][PASSED] - recordset = com.database.sqlserver.executeQuery(sql): com.database.sqlserver.executeQuery is PASSED
+
+2021-01-19 01:03:20 - [MESSAGE][PASSED] - com.database.sqlserver.executeQuery is PASSED
+
+2021-01-19 01:03:20 - [TEST_STEP][FAILED] - while (recordset.next()): Unable to open browser with url: ''
+
+2021-01-19 01:03:20 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-19 01:03:20 - [TEST_STEP][FAILED] - $comp_name(): Unable to open browser with url: ''
+
+2021-01-19 01:03:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-19 01:03:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-19 01:03:33 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:61)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at com.application.components.loginIntoApplication(components.groovy:37)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610996580978.run(TempTestSuite1610996580978.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8C0C3+3326147]
+	Ordinal0 [0x00A70851+2164817]
+	Ordinal0 [0x008F7140+618816]
+	Ordinal0 [0x008ED404+578564]
+	Ordinal0 [0x008EDACB+580299]
+	Ordinal0 [0x008EED35+585013]
+	Ordinal0 [0x008E9D61+564577]
+	Ordinal0 [0x008F82C0+623296]
+	Ordinal0 [0x00896BDD+224221]
+	Ordinal0 [0x00895CAC+220332]
+	Ordinal0 [0x0089189B+202907]
+	Ordinal0 [0x00873DF4+81396]
+	Ordinal0 [0x00874DEE+85486]
+	Ordinal0 [0x00874D79+85369]
+	Ordinal0 [0x00A885DC+2262492]
+	GetHandleVerifier [0x00D12874+1487204]
+	GetHandleVerifier [0x00D123CD+1486013]
+	GetHandleVerifier [0x00D1A368+1518680]
+	GetHandleVerifier [0x00D12F4E+1488958]
+	Ordinal0 [0x00A7ED0D+2223373]
+	Ordinal0 [0x00A8A12B+2269483]
+	Ordinal0 [0x00A8A26F+2269807]
+	Ordinal0 [0x00A9ECB8+2354360]
+	BaseThreadInitThunk [0x74FE6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77728944+228]
+	RtlGetAppContainerNamedObjectPath [0x77728914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:61)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at com.application.components.loginIntoApplication(components.groovy:37)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1610965239802.run(Script1610965239802.groovy:26)
+	... 13 more
+)
+
+2021-01-19 01:03:34 - [MESSAGE][FAILED] - Unable to open browser with url: '']]></system-out>
+         <system-err><![CDATA[2021-01-19 01:03:19 - [TEST_CASE][FAILED] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:61)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at com.application.components.loginIntoApplication(components.groovy:37)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610996580978.run(TempTestSuite1610996580978.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FOYSAL-LPTP', ip: '192.168.6.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8C0C3+3326147]
+	Ordinal0 [0x00A70851+2164817]
+	Ordinal0 [0x008F7140+618816]
+	Ordinal0 [0x008ED404+578564]
+	Ordinal0 [0x008EDACB+580299]
+	Ordinal0 [0x008EED35+585013]
+	Ordinal0 [0x008E9D61+564577]
+	Ordinal0 [0x008F82C0+623296]
+	Ordinal0 [0x00896BDD+224221]
+	Ordinal0 [0x00895CAC+220332]
+	Ordinal0 [0x0089189B+202907]
+	Ordinal0 [0x00873DF4+81396]
+	Ordinal0 [0x00874DEE+85486]
+	Ordinal0 [0x00874D79+85369]
+	Ordinal0 [0x00A885DC+2262492]
+	GetHandleVerifier [0x00D12874+1487204]
+	GetHandleVerifier [0x00D123CD+1486013]
+	GetHandleVerifier [0x00D1A368+1518680]
+	GetHandleVerifier [0x00D12F4E+1488958]
+	Ordinal0 [0x00A7ED0D+2223373]
+	Ordinal0 [0x00A8A12B+2269483]
+	Ordinal0 [0x00A8A26F+2269807]
+	Ordinal0 [0x00A9ECB8+2354360]
+	BaseThreadInitThunk [0x74FE6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77728944+228]
+	RtlGetAppContainerNamedObjectPath [0x77728914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-19 01:03:17 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-out>
+      <system-err><![CDATA[2021-01-19 01:03:17 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-err>
+   </testsuite>
+</testsuites>

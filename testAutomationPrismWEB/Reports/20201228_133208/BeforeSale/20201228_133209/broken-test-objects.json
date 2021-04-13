@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Route/Browse Routes/route_td",
+      "brokenLocator": "//td[(text() \u003d \u002770D\u0027 or . \u003d \u002770D\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027First\u0027])[1]/preceding::td[56]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201228_133208/BeforeSale/20201228_133209/Object Repository/Route/Browse Routes/route_td_neighbor.png"
+    }
+  ]
+}

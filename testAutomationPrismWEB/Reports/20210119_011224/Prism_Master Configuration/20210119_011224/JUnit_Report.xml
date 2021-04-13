@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prism_Master Configuration" time="55.028" tests="1" failures="1" skips="0" errors="0">
+   <testsuite name="Prism_Master Configuration" tests="1" failures="1" errors="0" time="55.028" skips="0" timestamp="2021-01-19 01:12:33" hostname="User - foysal-LPTP" id="Test Suites/Prism_Master Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_011224\\Prism_Master Configuration\\20210119_011224"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_011224\\Prism_Master Configuration\\20210119_011224\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_011224\\Prism_Master Configuration\\20210119_011224\\1610997203112.png"/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.6.153"/>
+         <property name="sessionId" value="f3a7336b3f2d2642eaa75b4027da46dc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" time="53.027" classname="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:265)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610997144463.run(TempTestSuite1610997144463.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Route/Add Route/sectionDropdown' located by '//*[(text() = 'Choose One' or . = 'Choose One')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2021-01-19 01:12:35 - [TEST_CASE][FAILED] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:265)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610997144463.run(TempTestSuite1610997144463.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Route/Add Route/sectionDropdown' located by '//*[(text() = 'Choose One' or . = 'Choose One')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2021-01-19 01:12:35 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 01:12:35 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 01:12:35 - [TEST_STEP][PASSED] - sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id: null
+
+2021-01-19 01:12:35 - [TEST_STEP][PASSED] - recordset = com.database.sqlserver.executeQuery(sql): com.database.sqlserver.executeQuery is PASSED
+
+2021-01-19 01:12:35 - [MESSAGE][PASSED] - com.database.sqlserver.executeQuery is PASSED
+
+2021-01-19 01:12:35 - [TEST_STEP][FAILED] - while (recordset.next()): Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+
+2021-01-19 01:12:35 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-19 01:12:35 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.loginIntoApplication is PASSED
+
+2021-01-19 01:12:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-19 01:12:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-19 01:12:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-19 01:12:42 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-19 01:12:47 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.11/prismv2/' successfully
+
+2021-01-19 01:12:47 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2021-01-19 01:12:48 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2021-01-19 01:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2021-01-19 01:12:48 - [MESSAGE][PASSED] - com.application.components.loginIntoApplication is PASSED
+
+2021-01-19 01:12:48 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-19 01:12:48 - [TEST_STEP][FAILED] - $comp_name(): Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+
+2021-01-19 01:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2021-01-19 01:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2021-01-19 01:12:50 - [MESSAGE][PASSED] - Text '81' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2021-01-19 01:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2021-01-19 01:12:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-19 01:13:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Choose One' or . = 'Choose One')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-19 01:13:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:265)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610997144463.run(TempTestSuite1610997144463.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Route/Add Route/sectionDropdown' located by '//*[(text() = 'Choose One' or . = 'Choose One')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:265)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1610965239802.run(Script1610965239802.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_011224\\Prism_Master Configuration\\20210119_011224\\1610997203112.png]]
+
+2021-01-19 01:13:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+
+2021-01-19 01:13:23 - [TEST_STEP][PASSED] - Start tear down : tearDownIfFailed: Method 'tearDownIfFailed' complete successfully
+
+2021-01-19 01:13:23 - [TEST_STEP][PASSED] - sql = "update master_testcases set tc_run_status = 'Executed', tc_result = 'Failed' where tc_id = 1": null
+
+2021-01-19 01:13:23 - [TEST_STEP][PASSED] - executeQuery(sql): null
+
+2021-01-19 01:13:23 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 01:13:23 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 01:13:23 - [TEST_STEP][PASSED] - com.database.sqlserver.execute(sql): com.database.sqlserver.execute is PASSED
+
+2021-01-19 01:13:23 - [MESSAGE][PASSED] - com.database.sqlserver.execute is PASSED
+
+2021-01-19 01:13:23 - [TEST_STEP][PASSED] - com.database.sqlserver.closeDatabaseConnection(): com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-19 01:13:23 - [MESSAGE][PASSED] - com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-19 01:13:23 - [MESSAGE][PASSED] - Method 'tearDownIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-01-19 01:12:35 - [TEST_CASE][FAILED] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Route/Add Route/sectionDropdown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.components.createAndBrowseRoute(components.groovy:265)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at 1_Prism Route, SR, Retailer Creation and Mapping.run(1_Prism Route, SR, Retailer Creation and Mapping:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610997144463.run(TempTestSuite1610997144463.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Route/Add Route/sectionDropdown' located by '//*[(text() = 'Choose One' or . = 'Choose One')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-19 01:12:33 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-out>
+      <system-err><![CDATA[2021-01-19 01:12:33 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-err>
+   </testsuite>
+</testsuites>

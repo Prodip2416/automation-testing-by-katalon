@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Auth/btn_Logout",
+      "brokenLocator": "//a[@id\u003d\u0027btnLogout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027btnLogout\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20201230_124108/AfterSell/20201230_124108/Object Repository/Auth/btn_Logout_attributes.png"
+    }
+  ]
+}

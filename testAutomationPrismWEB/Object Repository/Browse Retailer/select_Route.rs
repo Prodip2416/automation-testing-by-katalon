@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Route</name>
+   <tag></tag>
+   <elementGuidId>f4c98014-6266-42e5-b7f2-2c3a5fbc7eb4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='HeadersRow0']/th[4]/span/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.search_init.select_filter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>search_init select_filter</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Route1A1B2A2B3A5D6D14A15D16D20D30D44D46D46D46A46A46A46A46A47A48A48A48A48A50A50A57D70D71D72D72D73D74D75D76D77D77D78D79D80D80D80D81D81D82D83D84D101D102D104D701D702D703D704D705D706D707D708D709D710D</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;exampleDTC_wrapper&quot;)/div[@class=&quot;DTFC_ScrollWrapper&quot;]/div[@class=&quot;dataTables_scroll&quot;]/div[@class=&quot;dataTables_scrollHead&quot;]/div[@class=&quot;dataTables_scrollHeadInner&quot;]/table[@class=&quot;DT table table-striped table-content table-condensed boo-table table-hover bg-blue-light dataTable&quot;]/thead[1]/tr[@id=&quot;HeadersRow0&quot;]/th[@class=&quot;sorting&quot;]/span[@class=&quot;filter_column filter_select&quot;]/select[@class=&quot;search_init select_filter&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='HeadersRow0']/th[4]/span/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact No.(+880)'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 50 of 1,362 entries'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GEO Classification'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/select</value>
+   </webElementXpaths>
+</WebElementEntity>

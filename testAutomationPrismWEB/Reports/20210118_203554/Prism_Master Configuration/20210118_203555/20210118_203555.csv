@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Prism_Master Configuration,Chrome 87.0.4280.141,,,2021-01-18 20:36:03,2021-01-18 20:36:37,33.729s,PASSED
+,,,,,,,
+"Test Cases/1_Prism Route, SR, Retailer Creation and Mapping",Chrome 87.0.4280.141,,,2021-01-18 20:36:04,2021-01-18 20:36:37,32.867s,PASSED
+com.database.sqlserver.connectDB(),Chrome 87.0.4280.141,,,2021-01-18 20:36:04,2021-01-18 20:36:05,0.810s,PASSED
+sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id,Chrome 87.0.4280.141,,,2021-01-18 20:36:05,2021-01-18 20:36:05,0.008s,PASSED
+recordset = com.database.sqlserver.executeQuery(sql),Chrome 87.0.4280.141,,,2021-01-18 20:36:05,2021-01-18 20:36:05,0.071s,PASSED
+while (recordset.next()),Chrome 87.0.4280.141,,,2021-01-18 20:36:05,2021-01-18 20:36:37,31.671s,PASSED
+com.database.sqlserver.closeDatabaseConnection(),Chrome 87.0.4280.141,,,2021-01-18 20:36:37,2021-01-18 20:36:37,0.000s,PASSED

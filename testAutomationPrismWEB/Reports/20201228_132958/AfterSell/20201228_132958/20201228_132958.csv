@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AfterSell,Chrome 87.0.4280.88,,,2020-12-28 13:30:09,2020-12-28 13:31:18,1m - 9.234s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 87.0.4280.88,,,2020-12-28 13:30:10,2020-12-28 13:30:27,16.465s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:30:10,2020-12-28 13:30:22,11.170s,PASSED
+,,,,,,,
+Test Cases/Report SSS,Chrome 87.0.4280.88,,,2020-12-28 13:30:27,2020-12-28 13:30:56,29.315s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:30:27,2020-12-28 13:30:38,11.000s,PASSED
+driver = getWebDriver(),Chrome 87.0.4280.88,,,2020-12-28 13:30:38,2020-12-28 13:30:38,0.056s,PASSED
+com.application.appmanager.get_current_route_number(),Chrome 87.0.4280.88,,,2020-12-28 13:30:38,2020-12-28 13:30:39,0.811s,PASSED
+"click(findTestObject(""Object Repository/Report SSS/span_Reports""))",Chrome 87.0.4280.88,,,2020-12-28 13:30:39,2020-12-28 13:30:41,1.701s,PASSED
+"click(findTestObject(""Object Repository/Report SSS/a_SSS""))",Chrome 87.0.4280.88,,,2020-12-28 13:30:41,2020-12-28 13:30:42,1.854s,PASSED
+"click(findTestObject(""Object Repository/Report SSS/button_Get Report""))",Chrome 87.0.4280.88,,,2020-12-28 13:30:42,2020-12-28 13:30:44,1.793s,PASSED
+delay(5),Chrome 87.0.4280.88,,,2020-12-28 13:30:44,2020-12-28 13:30:49,5.021s,PASSED
+"Table = driver.findElement(By.xpath(""//table[@class=""DT table table-striped table-content table-condensed boo-table table-hover bg-blue-light dataTable DTFC_Cloned""]/tbody""))",Chrome 87.0.4280.88,,,2020-12-28 13:30:49,2020-12-28 13:30:49,0.032s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 87.0.4280.88,,,2020-12-28 13:30:49,2020-12-28 13:30:49,0.026s,PASSED
+rows_count = rows_table.size(),Chrome 87.0.4280.88,,,2020-12-28 13:30:49,2020-12-28 13:30:49,0.001s,PASSED
+"for ([row = 0, row < rows_count, (row++)])",Chrome 87.0.4280.88,,,2020-12-28 13:30:49,2020-12-28 13:30:51,1.803s,PASSED
+,,,,,,,
+Test Cases/Dashboard,Chrome 87.0.4280.88,,,2020-12-28 13:30:56,2020-12-28 13:31:15,19.248s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:30:56,2020-12-28 13:31:07,10.397s,PASSED
+com.application.appmanager.go_to_dashboard(),Chrome 87.0.4280.88,,,2020-12-28 13:31:07,2020-12-28 13:31:10,3.704s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 87.0.4280.88,,,2020-12-28 13:31:15,2020-12-28 13:31:18,2.912s,PASSED
+com.application.Auth.logOutFromApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:31:15,2020-12-28 13:31:18,2.789s,PASSED

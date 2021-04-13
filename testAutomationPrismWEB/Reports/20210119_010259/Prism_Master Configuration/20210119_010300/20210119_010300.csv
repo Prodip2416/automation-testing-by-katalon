@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Prism_Master Configuration,,,,2021-01-19 01:03:17,2021-01-19 01:03:34,16.159s,FAILED
+,,,,,,,
+"Test Cases/1_Prism Route, SR, Retailer Creation and Mapping",,,,2021-01-19 01:03:19,2021-01-19 01:03:34,14.254s,FAILED
+com.database.sqlserver.connectDB(),,,,2021-01-19 01:03:19,2021-01-19 01:03:19,0.031s,PASSED
+sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id,,,,2021-01-19 01:03:19,2021-01-19 01:03:19,0.014s,PASSED
+recordset = com.database.sqlserver.executeQuery(sql),,,,2021-01-19 01:03:19,2021-01-19 01:03:20,0.057s,PASSED
+while (recordset.next()),,,,2021-01-19 01:03:20,2021-01-19 01:03:34,13.962s,FAILED

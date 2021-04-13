@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AfterSell" time="265.478" tests="4" failures="1" skips="0" errors="0">
+   <testsuite name="AfterSell" tests="4" failures="1" errors="0" time="265.478" skips="0" timestamp="2020-12-30 12:41:16" hostname="User - foysal-LPTP" id="Test Suites/AfterSell">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_124108\\AfterSell\\20201230_124108"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_124108\\AfterSell\\20201230_124108\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_124108\\AfterSell\\20201230_124108\\1609310701275.png"/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.143"/>
+         <property name="sessionId" value="31f2873962bc0295e4b19d1337c0336f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="15.675" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:41:17 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2020-12-30 12:41:17 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-30 12:41:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-30 12:41:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-30 12:41:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-30 12:41:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-30 12:41:27 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-30 12:41:27 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-30 12:41:28 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-30 12:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-30 12:41:28 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report SSS" time="77.89" classname="Test Cases/Report SSS" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:41:33 - [TEST_CASE][PASSED] - Test Cases/Report SSS: Test Cases/Report SSS
+
+2020-12-30 12:41:33 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-12-30 12:41:33 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:41:33 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report SSS/span_Reports")): Object: 'Object Repository/Report SSS/span_Reports' is clicked on
+
+2020-12-30 12:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Report SSS/span_Reports' is clicked on
+
+2020-12-30 12:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report SSS/a_SSS")): Object: 'Object Repository/Report SSS/a_SSS' is clicked on
+
+2020-12-30 12:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Report SSS/a_SSS' is clicked on
+
+2020-12-30 12:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report SSS/button_Get Report")): Object: 'Object Repository/Report SSS/button_Get Report' is clicked on
+
+2020-12-30 12:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Report SSS/button_Get Report' is clicked on
+
+2020-12-30 12:42:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-12-30 12:42:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table[@class="DT table table-striped table-content table-condensed boo-table table-hover bg-blue-light dataTable DTFC_Cloned"]/tbody")): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:42:46 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" time="135.513" classname="Test Cases/Dashboard" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dashboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard/a_Dashboard'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.appmanager.go_to_dashboard(appmanager.groovy:162)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Dashboard.run(Dashboard:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1609310468620.run(TempTestSuite1609310468620.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard/a_Dashboard' located by '//div[@id='menu']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2020-12-30 12:42:51 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard/a_Dashboard'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.appmanager.go_to_dashboard(appmanager.groovy:162)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Dashboard.run(Dashboard:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1609310468620.run(TempTestSuite1609310468620.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard/a_Dashboard' located by '//div[@id='menu']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2020-12-30 12:42:51 - [TEST_STEP][FAILED] - com.application.appmanager.go_to_dashboard(): Unable to click on object 'Object Repository/Dashboard/a_Dashboard'
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='menu']/ul/li[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-30 12:44:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Dashboard/a_Dashboard'. Try using Self-healing.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:58 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='menu']/ul/li[2]/a'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Retailer'])[1]/preceding::a[1]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Browse Retailer'])[1]/preceding::a[2]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Dashboard']/parent::*'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '../dashboard')]'.
+
+2020-12-30 12:44:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/ul/li[2]/a'.
+
+2020-12-30 12:45:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@href = '../dashboard' and (text() = ' Dashboard' or . = ' Dashboard')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-30 12:45:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-30 12:45:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard/a_Dashboard' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard/a_Dashboard'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.appmanager.go_to_dashboard(appmanager.groovy:162)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Dashboard.run(Dashboard:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1609310468620.run(TempTestSuite1609310468620.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard/a_Dashboard' located by '//div[@id='menu']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.appmanager.go_to_dashboard(appmanager.groovy:162)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1609138579863.run(Script1609138579863.groovy:21)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_124108\\AfterSell\\20201230_124108\\1609310701275.png]]
+
+2020-12-30 12:45:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard/a_Dashboard']]></system-out>
+         <system-err><![CDATA[2020-12-30 12:42:51 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard/a_Dashboard'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:617)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.application.appmanager.go_to_dashboard(appmanager.groovy:162)
+	at com.database.mysql.invokeMethod(mysql.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Dashboard.run(Dashboard:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:393)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:384)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:355)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1609310468620.run(TempTestSuite1609310468620.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard/a_Dashboard' located by '//div[@id='menu']/ul/li[2]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1369)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="35.428" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:45:06 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2020-12-30 12:45:06 - [TEST_STEP][PASSED] - com.application.Auth.logOutFromApplication(): com.application.Auth.logOutFromApplication is PASSED
+
+2020-12-30 12:45:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='btnLogout']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-30 12:45:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Auth/btn_Logout'. Try using Self-healing.
+
+2020-12-30 12:45:38 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a[@id='btnLogout']'.
+
+2020-12-30 12:45:39 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Katalon Studio/PrismWebStory/Reports/Self-healing/Object Repository/Auth/btn_Logout_attributes.png
+
+2020-12-30 12:45:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Auth/btn_Logout' was broken. Propose an alternative one: '//a[@id='btnLogout']'.
+
+2020-12-30 12:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/btn_Logout' is clicked on
+
+2020-12-30 12:45:42 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-30 12:45:42 - [MESSAGE][PASSED] - com.application.Auth.logOutFromApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-30 12:41:16 - [TEST_SUITE][INCOMPLETE] - AfterSell: null]]></system-out>
+      <system-err><![CDATA[2020-12-30 12:41:16 - [TEST_SUITE][INCOMPLETE] - AfterSell: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prism_Master Configuration" time="2.202" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Prism_Master Configuration" tests="1" failures="0" errors="0" time="2.202" skips="0" timestamp="2021-01-19 02:10:16" hostname="User - foysal-LPTP" id="Test Suites/Prism_Master Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_021004\\Prism_Master Configuration\\20210119_021004"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210119_021004\\Prism_Master Configuration\\20210119_021004\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="hostAddress" value="192.168.6.153"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+      </properties>
+      <testcase name="Test Cases/1001_Prism Route, SR, Retailer Creation and Mapping" time="0.349" classname="Test Cases/1001_Prism Route, SR, Retailer Creation and Mapping" status="PASSED">
+         <system-out><![CDATA[2021-01-19 02:10:18 - [TEST_CASE][PASSED] - Test Cases/1001_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1001_Prism Route, SR, Retailer Creation and Mapping
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id: null
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - recordset = com.database.sqlserver.executeQuery(sql): com.database.sqlserver.executeQuery is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - com.database.sqlserver.executeQuery is PASSED
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - while (recordset.next()): null
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - com.database.sqlserver.closeDatabaseConnection(): com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - Start tear down : tearDownIfPassed: Method 'tearDownIfPassed' complete successfully
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - sql = update master_testcases set tc_run_status = 'Executed', tc_result = 'Passed' where tc_id = $tc_id: null
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - executeQuery(sql): null
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - com.database.sqlserver.execute(sql): com.database.sqlserver.execute is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - com.database.sqlserver.execute is PASSED
+
+2021-01-19 02:10:18 - [TEST_STEP][PASSED] - com.database.sqlserver.closeDatabaseConnection(): com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-19 02:10:18 - [MESSAGE][PASSED] - Method 'tearDownIfPassed' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-19 02:10:16 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-out>
+      <system-err><![CDATA[2021-01-19 02:10:16 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-err>
+   </testsuite>
+</testsuites>

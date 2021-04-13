@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>accounts_dashboard</name>
+   <tag></tag>
+   <elementGuidId>d3f08264-ec5c-4d36-9939-e7aa9451c28e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[6]/a/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-money</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-money</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;pace-done&quot;]/div[@class=&quot;module-wrapper&quot;]/div[@class=&quot;module-wrap&quot;]/div[@class=&quot;module-row&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-lg-3&quot;]/a[@class=&quot;module-item&quot;]/span[@class=&quot;hovicon data-tilt effect-9 sub-a&quot;]/i[@class=&quot;fa fa-money&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/a/span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

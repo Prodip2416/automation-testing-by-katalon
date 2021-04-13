@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BeforeSale" time="72.755" tests="7" failures="0" skips="0" errors="0">
+   <testsuite name="BeforeSale" tests="7" failures="0" errors="0" time="72.755" skips="0" timestamp="2020-12-30 12:23:03" hostname="User - foysal-LPTP" id="Test Suites/BeforeSale">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_122255\\BeforeSale\\20201230_122255"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_122255\\BeforeSale\\20201230_122255\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.143"/>
+         <property name="sessionId" value="602a2edad7daf7bbe13e3952ab2e853e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="15.641" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:23:04 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2020-12-30 12:23:05 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-30 12:23:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-30 12:23:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-30 12:23:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-30 12:23:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-30 12:23:15 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-30 12:23:15 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-30 12:23:15 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-30 12:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-30 12:23:15 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Route" time="13.293" classname="Test Cases/Route" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:23:20 - [TEST_CASE][PASSED] - Test Cases/Route: Test Cases/Route
+
+2020-12-30 12:23:21 - [TEST_STEP][PASSED] - com.application.appmanager.get_next_route_number(): com.application.appmanager.get_next_route_number is PASSED
+
+2020-12-30 12:23:21 - [MESSAGE][PASSED] - com.application.appmanager.get_next_route_number is PASSED
+
+2020-12-30 12:23:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-12-30 12:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Route/Dashboard/span_Route Planning")): Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2020-12-30 12:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2020-12-30 12:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Route/Dashboard/a_Add Route")): Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2020-12-30 12:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2020-12-30 12:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Route/Add Route/Route Number_field"), currentRouteNumber.toString()): Text '89' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2020-12-30 12:23:23 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2020-12-30 12:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/clickoutside")): Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2020-12-30 12:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2020-12-30 12:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/sectionDropdown")): Object: 'Object Repository/Route/Add Route/sectionDropdown' is clicked on
+
+2020-12-30 12:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/sectionDropdown' is clicked on
+
+2020-12-30 12:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Route/Add Route/input_select2"), "D"): Text 'D' is set on object 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-30 12:23:23 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-30 12:23:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Route/Add Route/input_select2"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-30 12:23:23 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-30 12:23:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Route/Add Route/input_select2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-30 12:23:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-30 12:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/button_Create Route")): Object: 'Object Repository/Route/Add Route/button_Create Route' is clicked on
+
+2020-12-30 12:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/button_Create Route' is clicked on
+
+2020-12-30 12:23:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Route/Add Route/routeConfirmation"), 5): Object 'Object Repository/Route/Add Route/routeConfirmation' is present
+
+2020-12-30 12:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/Route/Add Route/routeConfirmation' is present
+
+2020-12-30 12:23:24 - [TEST_STEP][PASSED] - com.application.appmanager.store_used_route(): com.application.appmanager.store_used_route is PASSED
+
+2020-12-30 12:23:24 - [MESSAGE][PASSED] - com.application.appmanager.store_used_route is PASSED
+
+2020-12-30 12:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/a_Route Planning")): Object: 'Object Repository/Route/Add Route/a_Route Planning' is clicked on
+
+2020-12-30 12:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Route Planning' is clicked on
+
+2020-12-30 12:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/a_Browse Route")): Object: 'Object Repository/Route/Add Route/a_Browse Route' is clicked on
+
+2020-12-30 12:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Browse Route' is clicked on
+
+2020-12-30 12:23:26 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-30 12:23:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-30 12:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Route/Browse Routes/a_last")): Object: 'Object Repository/Route/Browse Routes/a_last' is clicked on
+
+2020-12-30 12:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Browse Routes/a_last' is clicked on
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2020-12-30 12:23:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table[@id="exampleDTC"]/tbody")): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:27 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - get(column).click(): null
+
+2020-12-30 12:23:28 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create SR" time="9.331" classname="Test Cases/Create SR" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:23:34 - [TEST_CASE][PASSED] - Test Cases/Create SR: Test Cases/Create SR
+
+2020-12-30 12:23:34 - [TEST_STEP][PASSED] - com.application.appmanager.get_next_sr_name(): com.application.appmanager.get_next_sr_name is PASSED
+
+2020-12-30 12:23:34 - [MESSAGE][PASSED] - com.application.appmanager.get_next_sr_name is PASSED
+
+2020-12-30 12:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_HR")): Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-30 12:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-30 12:23:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_Add Employee")): Object: 'Object Repository/Create SR/a_Add Employee' is clicked on
+
+2020-12-30 12:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_Add Employee' is clicked on
+
+2020-12-30 12:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/input_Full Name_field"), currentSrName): Text 'katalon_sr_2_3_4_5_6_7' is set on object 'Object Repository/Create SR/input_Full Name_field'
+
+2020-12-30 12:23:35 - [MESSAGE][PASSED] - Text 'katalon_sr_2_3_4_5_6_7' is set on object 'Object Repository/Create SR/input_Full Name_field'
+
+2020-12-30 12:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/li_Contact No.(880)")): Object: 'Object Repository/Create SR/li_Contact No.(880)' is clicked on
+
+2020-12-30 12:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/li_Contact No.(880)' is clicked on
+
+2020-12-30 12:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/input_Contact No"), srPhone): Text '01825252525' is set on object 'Object Repository/Create SR/input_Contact No'
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Text '01825252525' is set on object 'Object Repository/Create SR/input_Contact No'
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/li_Email")): Object: 'Object Repository/Create SR/li_Email' is clicked on
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/li_Email' is clicked on
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/text - Email_field"), srEmail): Text 'katalon@katalon.com' is set on object 'Object Repository/Create SR/text - Email_field'
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Text 'katalon@katalon.com' is set on object 'Object Repository/Create SR/text - Email_field'
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/salary_input")): Object: 'Object Repository/Create SR/salary_input' is clicked on
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/salary_input' is clicked on
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/text - Salary_field"), srSalary): Text '10000' is set on object 'Object Repository/Create SR/text - Salary_field'
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Create SR/text - Salary_field'
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/button_Create Employee")): Object: 'Object Repository/Create SR/button_Create Employee' is clicked on
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/button_Create Employee' is clicked on
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - com.application.appmanager.store_created_sr(): com.application.appmanager.store_created_sr is PASSED
+
+2020-12-30 12:23:36 - [MESSAGE][PASSED] - com.application.appmanager.store_created_sr is PASSED
+
+2020-12-30 12:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_HR")): Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-30 12:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-30 12:23:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_Browse Employee")): Object: 'Object Repository/Create SR/a_Browse Employee' is clicked on
+
+2020-12-30 12:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_Browse Employee' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assign route to sr" time="13.362" classname="Test Cases/Assign route to sr" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:23:43 - [TEST_CASE][PASSED] - Test Cases/Assign route to sr: Test Cases/Assign route to sr
+
+2020-12-30 12:23:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-12-30 12:23:43 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:23:43 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:23:43 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_sr_name(): com.application.appmanager.get_current_sr_name is PASSED
+
+2020-12-30 12:23:43 - [MESSAGE][PASSED] - com.application.appmanager.get_current_sr_name is PASSED
+
+2020-12-30 12:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assign route to sr/span_Route Planning")): Object: 'Object Repository/Assign route to sr/span_Route Planning' is clicked on
+
+2020-12-30 12:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/span_Route Planning' is clicked on
+
+2020-12-30 12:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assign route to sr/a_Browse Route")): Object: 'Object Repository/Assign route to sr/a_Browse Route' is clicked on
+
+2020-12-30 12:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/a_Browse Route' is clicked on
+
+2020-12-30 12:23:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-12-30 12:23:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-30 12:23:49 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assign route to sr/a_Last")): Object: 'Object Repository/Assign route to sr/a_Last' is clicked on
+
+2020-12-30 12:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/a_Last' is clicked on
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2020-12-30 12:23:49 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table[@id="exampleDTC"]/tbody")): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:49 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - new_xpath = "//tr[@id="" + tr_id + ""]/td[3]/select": null
+
+2020-12-30 12:23:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Assign route to sr/select_Choose").addProperty("xpath", EQUALS, new_xpath, true), currentSrName, true): All options with label 'katalon_sr_2_3_4_5_6_7' are selected in object 'Object Repository/Assign route to sr/select_Choose'  using regular expression
+
+2020-12-30 12:23:51 - [MESSAGE][PASSED] - All options with label 'katalon_sr_2_3_4_5_6_7' are selected in object 'Object Repository/Assign route to sr/select_Choose'  using regular expression
+
+2020-12-30 12:23:51 - [TEST_STEP][PASSED] - com.application.appmanager.create_sr_user_for_mobile_app(): com.application.appmanager.create_sr_user_for_mobile_app is PASSED
+
+2020-12-30 12:23:51 - [MESSAGE][PASSED] - com.application.appmanager.create_sr_user_for_mobile_app is PASSED
+
+2020-12-30 12:23:51 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Retailer" time="8.242" classname="Test Cases/Create Retailer" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:23:56 - [TEST_CASE][PASSED] - Test Cases/Create Retailer: Test Cases/Create Retailer
+
+2020-12-30 12:23:56 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:23:56 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Retailer/a_Retailer")): Object: 'Object Repository/Create Retailer/a_Retailer' is clicked on
+
+2020-12-30 12:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/a_Retailer' is clicked on
+
+2020-12-30 12:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Retailer/a_Add Retailer")): Object: 'Object Repository/Create Retailer/a_Add Retailer' is clicked on
+
+2020-12-30 12:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/a_Add Retailer' is clicked on
+
+2020-12-30 12:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Retailer/input_Retail Name_retailerName"), retailerName): Text 'Katalon Retailer' is set on object 'Object Repository/Create Retailer/input_Retail Name_retailerName'
+
+2020-12-30 12:23:58 - [MESSAGE][PASSED] - Text 'Katalon Retailer' is set on object 'Object Repository/Create Retailer/input_Retail Name_retailerName'
+
+2020-12-30 12:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Retailer/input_Owner name_retailerOwner"), retailerOwner): Text 'Katalon Owner' is set on object 'Object Repository/Create Retailer/input_Owner name_retailerOwner'
+
+2020-12-30 12:23:58 - [MESSAGE][PASSED] - Text 'Katalon Owner' is set on object 'Object Repository/Create Retailer/input_Owner name_retailerOwner'
+
+2020-12-30 12:23:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Create Retailer/select_Counter"), currentRouteCode, true): All options with label '89D' are selected in object 'Object Repository/Create Retailer/select_Counter'  using regular expression
+
+2020-12-30 12:23:59 - [MESSAGE][PASSED] - All options with label '89D' are selected in object 'Object Repository/Create Retailer/select_Counter'  using regular expression
+
+2020-12-30 12:23:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Retailer/input_Retailer Code_retailerCode"), retailerCode): Text 'katalon-123' is set on object 'Object Repository/Create Retailer/input_Retailer Code_retailerCode'
+
+2020-12-30 12:23:59 - [MESSAGE][PASSED] - Text 'katalon-123' is set on object 'Object Repository/Create Retailer/input_Retailer Code_retailerCode'
+
+2020-12-30 12:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Retailer/button_Save Retailer")): Object: 'Object Repository/Create Retailer/button_Save Retailer' is clicked on
+
+2020-12-30 12:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/button_Save Retailer' is clicked on
+
+2020-12-30 12:23:59 - [TEST_STEP][PASSED] - com.application.appmanager.create_store_for_mobile_app(): com.application.appmanager.create_store_for_mobile_app is PASSED
+
+2020-12-30 12:23:59 - [MESSAGE][PASSED] - com.application.appmanager.create_store_for_mobile_app is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Retailer" time="8.521" classname="Test Cases/Browse Retailer" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:24:04 - [TEST_CASE][PASSED] - Test Cases/Browse Retailer: Test Cases/Browse Retailer
+
+2020-12-30 12:24:05 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:24:05 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Browse Retailer/a_Retailer")): Object: 'Object Repository/Browse Retailer/a_Retailer' is clicked on
+
+2020-12-30 12:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Retailer/a_Retailer' is clicked on
+
+2020-12-30 12:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Browse Retailer/a_Browse Retailer")): Object: 'Object Repository/Browse Retailer/a_Browse Retailer' is clicked on
+
+2020-12-30 12:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Retailer/a_Browse Retailer' is clicked on
+
+2020-12-30 12:24:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Browse Retailer/select_Route"), currentRouteCode, true): All options with label '89D' are selected in object 'Object Repository/Browse Retailer/select_Route'  using regular expression
+
+2020-12-30 12:24:08 - [MESSAGE][PASSED] - All options with label '89D' are selected in object 'Object Repository/Browse Retailer/select_Route'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="3.187" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:24:13 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2020-12-30 12:24:13 - [TEST_STEP][PASSED] - com.application.Auth.logOutFromApplication(): com.application.Auth.logOutFromApplication is PASSED
+
+2020-12-30 12:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/btn_Logout' is clicked on
+
+2020-12-30 12:24:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-30 12:24:16 - [MESSAGE][PASSED] - com.application.Auth.logOutFromApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-30 12:23:03 - [TEST_SUITE][INCOMPLETE] - BeforeSale: null]]></system-out>
+      <system-err><![CDATA[2020-12-30 12:23:03 - [TEST_SUITE][INCOMPLETE] - BeforeSale: null]]></system-err>
+   </testsuite>
+</testsuites>

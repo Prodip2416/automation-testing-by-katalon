@@ -1,0 +1,168 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://72.52.251.79/~prismwebs/prismv2/index.php/mgt_sales_report/mgt_sss
+Subject: 
+Date: Wed, 30 Dec 2020 06:45:01 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--sp9pKuijFTpGWOpJwjWlwXZTUuubc5J2ZLFQfiOXEK----"
+
+
+------MultipartBoundary--sp9pKuijFTpGWOpJwjWlwXZTUuubc5J2ZLFQfiOXEK----
+Content-Type: text/html
+Content-ID: <frame-3EC179732C1338883D341C58E5076D35@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://72.52.251.79/~prismwebs/prismv2/index.php/mgt_sales_report/mgt_sss
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ff9294=
+a0-67ce-4f78-898a-30440b1d1956@mhtml.blink" /></head><body><div id=3D"main-=
+content" class=3D"main-content container-fluid">
+	<div id=3D"page-content" class=3D"page-content">
+		<section>
+			<div class=3D"page-header">
+                            <h3><i class=3D"fontello-icon-article-alt opaci=
+35"></i> Summary Sales Statement (SSS) <small> Date: 2020-12-30 </small></h=
+3>
+			</div>
+			<div class=3D"row-fluid">
+                            <div class=3D"span12 grider center">
+                               =20
+<div class=3D"widget widget-simple widget-table">
+    <div class=3D"row"></div>
+                <div style=3D"margin:10px">
+	<form id=3D"form128" class=3D"form-horizontal" method=3D"post" novalidate=
+=3D"novalidate" action=3D"http://72.52.251.79/~prismwebs/prismv2/index.php/=
+mgt_sales_report/mgt_sss">
+	<!-- <div class=3D"controls span3 l distributor">
+		<label for=3D"accountPrefix" class=3D"control-label" style=3D"text-align:=
+left;">Choose Distributor Point</label>
+		<select name=3D"dpid" class=3D"span12 _fld" cat=3D"1" frm=3D"1" lnk=3D"ge=
+t_distrp"></select>
+	</div>
+	 -->
+	 <div class=3D"form-group-wrapper">
+    <div class=3D"form-group span12">
+        <div class=3D"form-group-wrapper">
+                <div class=3D"form-group span2">
+                                        <label for=3D"selRegion">Region</la=
+bel>=20
+                    <select name=3D"selRegion[]" id=3D"region" class=3D"for=
+m-control">
+                        <option value=3D"1" selected=3D"selected">Dhaka</op=
+tion>                    </select>
+                                    </div>
+                <div class=3D"form-group span2">
+                                        <label for=3D"area">Area</label>=20
+                    <select name=3D"area[]" id=3D"area" class=3D"form-contr=
+ol">
+                            <option value=3D"2" selected=3D"selected">Dhaka=
+ Central</option>                    </select>
+                                    </div>
+				<div class=3D"form-group span2">
+                                        <label for=3D"house">Distribution H=
+ouse</label>=20
+                    <select name=3D"house[]" id=3D"house" class=3D"form-con=
+trol">
+                            <option value=3D"57" selected=3D"selected">Apsi=
+s Solutions Ltd</option>                    </select>
+                                    </div>
+                <div class=3D"form-group span2">
+                                        <label for=3D"territory">Territory<=
+/label>=20
+                    <select name=3D"territory[]" id=3D"territory" class=3D"=
+form-control">
+                            <option value=3D"3" selected=3D"selected">Gulsh=
+an</option>                    </select>
+                                    </div>
+               =20
+                <div class=3D"form-group span2">
+                                        <label for=3D"point">Distribution P=
+oint</label>=20
+                    <select name=3D"point[]" id=3D"point" class=3D"form-con=
+trol">
+                        <option value=3D"344" selected=3D"selected">Kakoli<=
+/option>                    </select>
+                                    </div>
+                                <div class=3D"form-group span2">
+                                    </div>
+        </div>
+    </div>
+</div>
+<div class=3D"clear-both"></div>
+	<div class=3D"controls span2 l">
+		<label for=3D"accountPrefix" class=3D"control-label" style=3D"text-align:=
+left;">Choose Date</label>
+		<input id=3D"date" class=3D"input-medium margin-00 datepk" type=3D"text" =
+name=3D"date" value=3D"2020-12-30">
+	</div>
+
+	<div class=3D"controls span2 l">
+        <div class=3D"row"></div>
+        <label for=3D"accountPrefix" class=3D"control-label" style=3D"text-=
+align:left;">&nbsp;</label>
+        <div class=3D"row"></div>
+		<button type=3D"submit" class=3D"btn btn-blue">Get Report</button>
+	</div>
+	<div class=3D"controls span2 l">
+        <div class=3D"row"></div>
+        <label for=3D"accountPrefix" class=3D"control-label" style=3D"text-=
+align:left;">&nbsp;</label>
+        <div class=3D"row"></div>
+		<button id=3D"excelExport" class=3D"btn btn-blue">Excel Export</button>
+	</div>
+        <div class=3D"controls span2 l">
+            <label for=3D"accountPrefix" class=3D"control-label" style=3D"t=
+ext-align:left;">Include in Report</label>
+                            <select id=3D"ex_column" class=3D"" name=3D"ex_=
+column[]" multiple=3D"multiple">
+                    <option value=3D"sales_time">Sales Time</option>
+                    <option value=3D"pc_channel">PC Channel</option>
+                    <option value=3D"mobile_number">Mobile Number</option>
+                </select>
+
+<!--            <label class=3D"checkbox">
+                <input type=3D"checkbox" id=3D"sales_time" name=3D"sales_ti=
+me" >
+                Include Sales Time
+            </label>-->
+        </div>
+	</form>
+</div>
+<div class=3D"clear10"></div>
+               =20
+								{"success":false,"msg":"Invalid argument supplied for foreach() on =
+line 504 of file \/home\/prismwebs\/public_html\/prismv2\/application\/view=
+s\/-\/page1.php","Usage":2,"usage":1.7109985351562,"elapsed":"127.3188","qu=
+eries":[]}<table id=3D"exampleDTC" class=3D"DT table table-striped table-co=
+ntent table-condensed boo-table table-hover bg-blue-light">
+		<caption class=3D"caption-m">
+                    Summary Sales Statement (SSS)                    &nbsp;=
+&nbsp;
+                    <span>Date: 2020-12-30</span>
+		</caption>
+		<thead>
+			<tr id=3D"HeadersRow0">
+																		<th ind=3D"0" scope=3D"col" mopt=3D"{###slug###:###No Rec=
+ords Found!!!!###}"><span>No Records Found!!!!</span><span class=3D"column-=
+sorter"></span></th>
+																	</tr>
+		</thead>
+		<tbody></tbody></table></div></div></div></section></div></div><div id=3D=
+"katalon_only_element"></div></body></html>
+------MultipartBoundary--sp9pKuijFTpGWOpJwjWlwXZTUuubc5J2ZLFQfiOXEK----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ff9294a0-67ce-4f78-898a-30440b1d1956@mhtml.blink
+
+@charset "utf-8";
+
+.control-label { text-align: left !important; }
+
+select { min-width: 150px !important; }
+
+label { padding-right: 4px; width: auto !important; }
+
+.form-group-wrapper { display: block; margin-bottom: 5px; clear: left; floa=
+t: left; width: 100%; }
+------MultipartBoundary--sp9pKuijFTpGWOpJwjWlwXZTUuubc5J2ZLFQfiOXEK------

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prism_Master Configuration" time="33.729" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Prism_Master Configuration" tests="1" failures="0" errors="0" time="33.729" skips="0" timestamp="2021-01-18 20:36:03" hostname="User - foysal-LPTP" id="Test Suites/Prism_Master Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210118_203554\\Prism_Master Configuration\\20210118_203555"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20210118_203554\\Prism_Master Configuration\\20210118_203555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.1.167"/>
+         <property name="sessionId" value="d80d716f06956ad1abf0bd780efd72bd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" time="32.867" classname="Test Cases/1_Prism Route, SR, Retailer Creation and Mapping" status="PASSED">
+         <system-out><![CDATA[2021-01-18 20:36:04 - [TEST_CASE][PASSED] - Test Cases/1_Prism Route, SR, Retailer Creation and Mapping: Test Cases/1_Prism Route, SR, Retailer Creation and Mapping
+
+2021-01-18 20:36:04 - [TEST_STEP][PASSED] - com.database.sqlserver.connectDB(): com.database.sqlserver.connectDB is PASSED
+
+2021-01-18 20:36:05 - [MESSAGE][PASSED] - com.database.sqlserver.connectDB is PASSED
+
+2021-01-18 20:36:05 - [TEST_STEP][PASSED] - sql = select master_components.comp_name from master_components LEFT JOIN testcase_component_mappings ON master_components.comp_id = testcase_component_mappings.comp_id WHERE master_components.status='Active' AND testcase_component_mappings.status='Active' AND testcase_component_mappings.tc_id = $tc_id: null
+
+2021-01-18 20:36:05 - [TEST_STEP][PASSED] - recordset = com.database.sqlserver.executeQuery(sql): com.database.sqlserver.executeQuery is PASSED
+
+2021-01-18 20:36:05 - [MESSAGE][PASSED] - com.database.sqlserver.executeQuery is PASSED
+
+2021-01-18 20:36:05 - [TEST_STEP][PASSED] - while (recordset.next()): com.application.components.logOutFromApplication is PASSED
+
+2021-01-18 20:36:05 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:05 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.loginIntoApplication is PASSED
+
+2021-01-18 20:36:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-18 20:36:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-18 20:36:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-18 20:36:11 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-18 20:36:12 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.11/prismv2/' successfully
+
+2021-01-18 20:36:13 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2021-01-18 20:36:13 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2021-01-18 20:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2021-01-18 20:36:13 - [MESSAGE][PASSED] - com.application.components.loginIntoApplication is PASSED
+
+2021-01-18 20:36:13 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:13 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.createAndBrowseRoute is PASSED
+
+2021-01-18 20:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2021-01-18 20:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2021-01-18 20:36:14 - [MESSAGE][PASSED] - Text '103' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2021-01-18 20:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2021-01-18 20:36:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-01-18 20:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/sectionDropdown' is clicked on
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Route/Add Route/input_select2'
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/button_Create Route' is clicked on
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Object 'Object Repository/Route/Add Route/routeConfirmation' is present
+
+2021-01-18 20:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Route Planning' is clicked on
+
+2021-01-18 20:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Browse Route' is clicked on
+
+2021-01-18 20:36:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-18 20:36:24 - [MESSAGE][PASSED] - com.application.components.createAndBrowseRoute is PASSED
+
+2021-01-18 20:36:24 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:24 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.createSR is PASSED
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_Add Employee' is clicked on
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Text 'TestAutomationSR_9' is set on object 'Object Repository/Create SR/input_Full Name_field'
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/li_Contact No.(880)' is clicked on
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Text '01825252525' is set on object 'Object Repository/Create SR/input_Contact No'
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2021-01-18 20:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/li_Email' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Text 'katalon@katalon.com' is set on object 'Object Repository/Create SR/text - Email_field'
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/salary_input' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Create SR/text - Salary_field'
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/button_Create Employee' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_Browse Employee' is clicked on
+
+2021-01-18 20:36:26 - [MESSAGE][PASSED] - com.application.components.createSR is PASSED
+
+2021-01-18 20:36:26 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:26 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.routeAssignToSR is PASSED
+
+2021-01-18 20:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/span_Route Planning' is clicked on
+
+2021-01-18 20:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/a_Browse Route' is clicked on
+
+2021-01-18 20:36:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-18 20:36:33 - [MESSAGE][PASSED] - All options with label 'TestAutomationSR_9' are selected in object 'Object Repository/Assign route to sr/select_Choose'  using regular expression
+
+2021-01-18 20:36:33 - [MESSAGE][PASSED] - com.application.components.routeAssignToSR is PASSED
+
+2021-01-18 20:36:33 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:33 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.createRetailer is PASSED
+
+2021-01-18 20:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/a_Retailer' is clicked on
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/a_Add Retailer' is clicked on
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - Text 'Katalon Retailer' is set on object 'Object Repository/Create Retailer/input_Retail Name_retailerName'
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - Text 'Katalon Owner' is set on object 'Object Repository/Create Retailer/input_Owner name_retailerOwner'
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - All options with label '103D' are selected in object 'Object Repository/Create Retailer/select_Counter'  using regular expression
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - Text 'katalon-123' is set on object 'Object Repository/Create Retailer/input_Retailer Code_retailerCode'
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/button_Save Retailer' is clicked on
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - com.application.components.createRetailer is PASSED
+
+2021-01-18 20:36:34 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:34 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.browseRetailer is PASSED
+
+2021-01-18 20:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Retailer/a_Retailer' is clicked on
+
+2021-01-18 20:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Retailer/a_Browse Retailer' is clicked on
+
+2021-01-18 20:36:35 - [MESSAGE][PASSED] - All options with label '103D' are selected in object 'Object Repository/Browse Retailer/select_Route'  using regular expression
+
+2021-01-18 20:36:35 - [MESSAGE][PASSED] - com.application.components.browseRetailer is PASSED
+
+2021-01-18 20:36:35 - [TEST_STEP][PASSED] - comp_name = "com.application.components." + recordset.getObject("comp_name"): null
+
+2021-01-18 20:36:35 - [TEST_STEP][PASSED] - $comp_name(): com.application.components.logOutFromApplication is PASSED
+
+2021-01-18 20:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/btn_Logout' is clicked on
+
+2021-01-18 20:36:37 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-18 20:36:37 - [MESSAGE][PASSED] - com.application.components.logOutFromApplication is PASSED
+
+2021-01-18 20:36:37 - [TEST_STEP][PASSED] - com.database.sqlserver.closeDatabaseConnection(): com.database.sqlserver.closeDatabaseConnection is PASSED
+
+2021-01-18 20:36:37 - [MESSAGE][PASSED] - com.database.sqlserver.closeDatabaseConnection is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-18 20:36:03 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-out>
+      <system-err><![CDATA[2021-01-18 20:36:03 - [TEST_SUITE][INCOMPLETE] - Prism_Master Configuration: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BeforeSale,Chrome 87.0.4280.88,,,2020-12-28 13:32:18,2020-12-28 13:35:34,3m - 16.701s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 87.0.4280.88,,,2020-12-28 13:32:18,2020-12-28 13:32:34,15.423s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:32:19,2020-12-28 13:32:29,10.110s,PASSED
+,,,,,,,
+Test Cases/Route,Chrome 87.0.4280.88,,,2020-12-28 13:32:34,2020-12-28 13:33:59,1m - 25.462s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:32:34,2020-12-28 13:32:44,9.945s,PASSED
+com.application.appmanager.get_next_route_number(),Chrome 87.0.4280.88,,,2020-12-28 13:32:44,2020-12-28 13:32:45,0.601s,PASSED
+"click(findTestObject(""Route/Dashboard/span_Route Planning""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:45,2020-12-28 13:32:47,1.894s,PASSED
+"click(findTestObject(""Route/Dashboard/a_Add Route""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:47,2020-12-28 13:32:48,1.334s,PASSED
+"setText(findTestObject(""Route/Add Route/Route Number_field""), currentRouteNumber.toString())",Chrome 87.0.4280.88,,,2020-12-28 13:32:48,2020-12-28 13:32:48,0.182s,PASSED
+"click(findTestObject(""Route/Add Route/clickoutside""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:48,2020-12-28 13:32:48,0.149s,PASSED
+"click(findTestObject(""Route/Add Route/sectionDropdown""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:48,2020-12-28 13:32:48,0.170s,PASSED
+"setText(findTestObject(""Route/Add Route/input_select2""), ""D"")",Chrome 87.0.4280.88,,,2020-12-28 13:32:48,2020-12-28 13:32:49,0.171s,PASSED
+"sendKeys(findTestObject(""Route/Add Route/input_select2""), Keys.chord(ARROW_DOWN))",Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:49,0.095s,PASSED
+"sendKeys(findTestObject(""Route/Add Route/input_select2""), Keys.chord(ENTER))",Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:49,0.100s,PASSED
+"click(findTestObject(""Route/Add Route/button_Create Route""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:49,0.109s,PASSED
+"waitForElementPresent(findTestObject(""Route/Add Route/routeConfirmation""), 5)",Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:49,0.499s,PASSED
+com.application.appmanager.store_used_route(),Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:49,0.020s,PASSED
+"click(findTestObject(""Route/Add Route/a_Route Planning""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:49,0.106s,PASSED
+"click(findTestObject(""Route/Add Route/a_Browse Route""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:49,2020-12-28 13:32:51,1.014s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 87.0.4280.88,,,2020-12-28 13:32:51,2020-12-28 13:32:51,0.021s,PASSED
+"click(findTestObject(""Route/Browse Routes/a_last""))",Chrome 87.0.4280.88,,,2020-12-28 13:32:51,2020-12-28 13:32:52,1.073s,PASSED
+"scrollToElement(findTestObject(""Route/Browse Routes/route_td"", [""text"":currentRouteCode]), 3)",Chrome 87.0.4280.88,,,2020-12-28 13:32:52,2020-12-28 13:33:23,31.224s,PASSED
+"mouseOver(findTestObject(""Route/Browse Routes/route_td"", [""text"":currentRouteCode]))",Chrome 87.0.4280.88,,,2020-12-28 13:33:23,2020-12-28 13:33:54,31.630s,PASSED
+,,,,,,,
+Test Cases/Create SR,Chrome 87.0.4280.88,,,2020-12-28 13:33:59,2020-12-28 13:34:23,23.142s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:34:00,2020-12-28 13:34:11,11.061s,PASSED
+com.application.appmanager.get_next_sr_name(),Chrome 87.0.4280.88,,,2020-12-28 13:34:11,2020-12-28 13:34:11,0.009s,PASSED
+"click(findTestObject(""Object Repository/Create SR/a_HR""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:11,2020-12-28 13:34:14,2.812s,PASSED
+"click(findTestObject(""Object Repository/Create SR/a_Add Employee""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:14,2020-12-28 13:34:15,1.027s,PASSED
+"setText(findTestObject(""Create SR/input_Full Name_field""), currentSrName)",Chrome 87.0.4280.88,,,2020-12-28 13:34:15,2020-12-28 13:34:15,0.179s,PASSED
+"click(findTestObject(""Create SR/label_Salary""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:15,2020-12-28 13:34:15,0.127s,PASSED
+"click(findTestObject(""Object Repository/Create SR/li_Contact No.(880)""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:15,2020-12-28 13:34:15,0.132s,PASSED
+"setText(findTestObject(""Create SR/input_Contact No""), srPhone)",Chrome 87.0.4280.88,,,2020-12-28 13:34:15,2020-12-28 13:34:15,0.199s,PASSED
+"click(findTestObject(""Create SR/label_Salary""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:15,2020-12-28 13:34:15,0.117s,PASSED
+"click(findTestObject(""Object Repository/Create SR/li_Email""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:15,2020-12-28 13:34:16,0.124s,PASSED
+"setText(findTestObject(""Create SR/text - Email_field""), srEmail)",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.179s,PASSED
+"click(findTestObject(""Create SR/label_Salary""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.097s,PASSED
+"click(findTestObject(""Create SR/salary_input""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.133s,PASSED
+"setText(findTestObject(""Create SR/text - Salary_field""), srSalary)",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.146s,PASSED
+"click(findTestObject(""Create SR/label_Salary""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.097s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.015s,PASSED
+"click(findTestObject(""Object Repository/Create SR/button_Create Employee""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.147s,PASSED
+com.application.appmanager.store_created_sr(),Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:16,0.030s,PASSED
+"click(findTestObject(""Object Repository/Create SR/a_HR""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:16,2020-12-28 13:34:17,0.108s,PASSED
+"click(findTestObject(""Object Repository/Create SR/a_Browse Employee""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:17,2020-12-28 13:34:18,1.079s,PASSED
+,,,,,,,
+Test Cases/Assign route to sr,Chrome 87.0.4280.88,,,2020-12-28 13:34:23,2020-12-28 13:34:49,26.562s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:34:23,2020-12-28 13:34:33,10.123s,PASSED
+driver = getWebDriver(),Chrome 87.0.4280.88,,,2020-12-28 13:34:33,2020-12-28 13:34:33,0.001s,PASSED
+com.application.appmanager.get_current_route_number(),Chrome 87.0.4280.88,,,2020-12-28 13:34:33,2020-12-28 13:34:33,0.008s,PASSED
+com.application.appmanager.get_current_sr_name(),Chrome 87.0.4280.88,,,2020-12-28 13:34:33,2020-12-28 13:34:33,0.010s,PASSED
+"click(findTestObject(""Object Repository/Assign route to sr/span_Route Planning""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:33,2020-12-28 13:34:36,2.913s,PASSED
+"click(findTestObject(""Object Repository/Assign route to sr/a_Browse Route""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:36,2020-12-28 13:34:37,1.157s,PASSED
+delay(5),Chrome 87.0.4280.88,,,2020-12-28 13:34:37,2020-12-28 13:34:42,5.015s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:42,0.011s,PASSED
+"click(findTestObject(""Object Repository/Assign route to sr/a_Last""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:42,0.102s,PASSED
+"scrollToPosition(0, 0)",Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:42,0.012s,PASSED
+"Table = driver.findElement(By.xpath(""//table[@id=""exampleDTC""]/tbody""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:42,0.025s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:42,0.046s,PASSED
+rows_count = rows_table.size(),Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:42,0.001s,PASSED
+"for ([row = 0, row < rows_count, (row++)])",Chrome 87.0.4280.88,,,2020-12-28 13:34:42,2020-12-28 13:34:44,1.746s,PASSED
+,,,,,,,
+Test Cases/Create Retailer,Chrome 87.0.4280.88,,,2020-12-28 13:34:49,2020-12-28 13:35:10,21.224s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:34:49,2020-12-28 13:34:59,10.119s,PASSED
+com.application.appmanager.get_current_route_number(),Chrome 87.0.4280.88,,,2020-12-28 13:34:59,2020-12-28 13:34:59,0.018s,PASSED
+"click(findTestObject(""Object Repository/Create Retailer/a_Retailer""))",Chrome 87.0.4280.88,,,2020-12-28 13:34:59,2020-12-28 13:35:02,2.703s,PASSED
+"click(findTestObject(""Object Repository/Create Retailer/a_Add Retailer""))",Chrome 87.0.4280.88,,,2020-12-28 13:35:02,2020-12-28 13:35:03,1.094s,PASSED
+"setText(findTestObject(""Object Repository/Create Retailer/input_Retail Name_retailerName""), retailerName)",Chrome 87.0.4280.88,,,2020-12-28 13:35:03,2020-12-28 13:35:03,0.221s,PASSED
+"setText(findTestObject(""Object Repository/Create Retailer/input_Owner name_retailerOwner""), retailerOwner)",Chrome 87.0.4280.88,,,2020-12-28 13:35:03,2020-12-28 13:35:04,0.204s,PASSED
+"selectOptionByLabel(findTestObject(""Create Retailer/select_Counter""), currentRouteCode, true)",Chrome 87.0.4280.88,,,2020-12-28 13:35:04,2020-12-28 13:35:05,1.444s,PASSED
+"setText(findTestObject(""Object Repository/Create Retailer/input_Retailer Code_retailerCode""), retailerCode)",Chrome 87.0.4280.88,,,2020-12-28 13:35:05,2020-12-28 13:35:05,0.181s,PASSED
+"click(findTestObject(""Object Repository/Create Retailer/button_Save Retailer""))",Chrome 87.0.4280.88,,,2020-12-28 13:35:05,2020-12-28 13:35:05,0.116s,PASSED
+com.application.appmanager.create_store_for_mobile_app(),Chrome 87.0.4280.88,,,2020-12-28 13:35:05,2020-12-28 13:35:05,0.011s,PASSED
+,,,,,,,
+Test Cases/Browse Retailer,Chrome 87.0.4280.88,,,2020-12-28 13:35:10,2020-12-28 13:35:32,21.111s,PASSED
+com.application.Auth.loginIntoApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:35:11,2020-12-28 13:35:21,10.424s,PASSED
+com.application.appmanager.get_current_route_number(),Chrome 87.0.4280.88,,,2020-12-28 13:35:21,2020-12-28 13:35:21,0.010s,PASSED
+"click(findTestObject(""Object Repository/Browse Retailer/a_Retailer""))",Chrome 87.0.4280.88,,,2020-12-28 13:35:21,2020-12-28 13:35:24,2.495s,PASSED
+"click(findTestObject(""Object Repository/Browse Retailer/a_Browse Retailer""))",Chrome 87.0.4280.88,,,2020-12-28 13:35:24,2020-12-28 13:35:25,1.099s,PASSED
+"selectOptionByLabel(findTestObject(""Browse Retailer/select_Route""), currentRouteCode, true)",Chrome 87.0.4280.88,,,2020-12-28 13:35:25,2020-12-28 13:35:27,1.947s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 87.0.4280.88,,,2020-12-28 13:35:32,2020-12-28 13:35:34,2.708s,PASSED
+com.application.Auth.logOutFromApplication(),Chrome 87.0.4280.88,,,2020-12-28 13:35:32,2020-12-28 13:35:34,2.603s,PASSED

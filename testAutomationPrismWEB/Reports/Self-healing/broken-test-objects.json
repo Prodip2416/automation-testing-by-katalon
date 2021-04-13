@@ -1,0 +1,114 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Route/Add Route/Section_dropdown",
+      "brokenLocator": "//*[@class \u003d \u0027control-group\u0027 and (text() \u003d \u0027Choose One\u0027 or . \u003d \u0027Choose One\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OK!\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Route/Add Route/Section_dropdown_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/testpurposeonly/ul_Route NumberOKRoute Section       Choose_b77395",
+      "brokenLocator": "//form[@id\u003d\u0027form969\u0027]/div/div/fieldset/ul",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Route Related Information\u0027])[1]/following::ul[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/testpurposeonly/ul_Route NumberOKRoute Section       Choose_b77395_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Route/Add Route/routeConfirmation",
+      "brokenLocator": "//div[@id\u003d\u0027notyfy_1515001647392603000\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Create Route\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Route/Add Route/routeConfirmation_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create SR/li_Contact No.(880)",
+      "brokenLocator": "//form[@id\u003d\u0027form165\u0027]/div/div/fieldset/ul/li[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Full Name*\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create SR/li_Contact No.(880)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create SR/li_Email",
+      "brokenLocator": "//form[@id\u003d\u0027form165\u0027]/div/div/fieldset/ul/li[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Contact No.(+880)*\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create SR/li_Email_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create SR/salary_input",
+      "brokenLocator": "//form[@id\u003d\u0027form165\u0027]/div/div/fieldset/ul",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Employee Related Information\u0027])[1]/following::ul[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create SR/salary_input_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create SR/label_Salary",
+      "brokenLocator": "//form[@id\u003d\u0027form306\u0027]/div/div/fieldset/ul/li[5]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create SR/label_Salary_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Route/Browse Routes/route_td",
+      "brokenLocator": "//td[(text() \u003d \u002770D\u0027 or . \u003d \u002770D\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027First\u0027])[1]/preceding::td[56]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Route/Browse Routes/route_td_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Assign route to sr/select_Choose OneKakoli-SR-1Kakoli-SR-2Kako_ca82dc",
+      "brokenLocator": "id(\"DataRow53\")/td[@class\u003d\"\"]/select[@class\u003d\"span12\"]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//tr[@id\u003d\u0027DataRow53\u0027]/td[3]/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Assign route to sr/select_Choose OneKakoli-SR-1Kakoli-SR-2Kako_ca82dc_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Assign route to sr/select_Choose",
+      "brokenLocator": "id(\"DataRow53\")/td[@class\u003d\"\"]/select[@class\u003d\"span12\"]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//tr[@id\u003d\u0027DataRow53\u0027]/td[3]/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Assign route to sr/select_Choose_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Auth/btn_Logout",
+      "brokenLocator": "//a[@id\u003d\u0027btnLogout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027btnLogout\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Auth/btn_Logout_attributes.png"
+    }
+  ]
+}

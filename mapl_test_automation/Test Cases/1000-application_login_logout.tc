@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login into application and logout</description>
+   <name>1000-application_login_logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a93f2e5f-5064-4103-a47a-9a4a3978f4a8</testCaseGuid>
+</TestCaseEntity>

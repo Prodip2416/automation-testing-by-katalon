@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1001_Prism Route, SR, Retailer Creation and Mapping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c96dfd49-df79-4173-a969-00ef0342ef70</testCaseGuid>
+   <variable>
+      <defaultValue>1001</defaultValue>
+      <description></description>
+      <id>ade9f9ee-d416-4d1b-acf7-0d8d691841a2</id>
+      <masked>false</masked>
+      <name>tc_id</name>
+   </variable>
+</TestCaseEntity>

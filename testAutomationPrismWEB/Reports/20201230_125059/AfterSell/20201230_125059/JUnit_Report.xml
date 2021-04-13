@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AfterSell" time="71.915" tests="4" failures="0" skips="0" errors="0">
+   <testsuite name="AfterSell" tests="4" failures="0" errors="0" time="71.915" skips="0" timestamp="2020-12-30 12:51:08" hostname="User - foysal-LPTP" id="Test Suites/AfterSell">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_125059\\AfterSell\\20201230_125059"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201230_125059\\AfterSell\\20201230_125059\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.143"/>
+         <property name="sessionId" value="c0802cf40d7e2f9f7f91c0bb817a45fd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="16.575" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:51:09 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2020-12-30 12:51:09 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-30 12:51:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-30 12:51:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-30 12:51:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-30 12:51:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-30 12:51:20 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-30 12:51:20 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-30 12:51:20 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-30 12:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-30 12:51:21 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Report SSS" time="44.901" classname="Test Cases/Report SSS" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:51:26 - [TEST_CASE][PASSED] - Test Cases/Report SSS: Test Cases/Report SSS
+
+2020-12-30 12:51:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-12-30 12:51:26 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:51:27 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-30 12:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report SSS/span_Reports")): Object: 'Object Repository/Report SSS/span_Reports' is clicked on
+
+2020-12-30 12:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Report SSS/span_Reports' is clicked on
+
+2020-12-30 12:51:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report SSS/a_SSS")): Object: 'Object Repository/Report SSS/a_SSS' is clicked on
+
+2020-12-30 12:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Report SSS/a_SSS' is clicked on
+
+2020-12-30 12:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report SSS/button_Get Report")): Object: 'Object Repository/Report SSS/button_Get Report' is clicked on
+
+2020-12-30 12:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Report SSS/button_Get Report' is clicked on
+
+2020-12-30 12:51:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-12-30 12:51:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-12-30 12:51:45 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table[@class="DT table table-striped table-content table-condensed boo-table table-hover bg-blue-light dataTable DTFC_Cloned"]/tbody")): null
+
+2020-12-30 12:51:45 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-30 12:51:46 - [TEST_STEP][PASSED] - tagName("a")).click(): null
+
+2020-12-30 12:52:06 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" time="6.211" classname="Test Cases/Dashboard" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:52:11 - [TEST_CASE][PASSED] - Test Cases/Dashboard: Test Cases/Dashboard
+
+2020-12-30 12:52:11 - [TEST_STEP][PASSED] - com.application.appmanager.go_to_dashboard(): com.application.appmanager.go_to_dashboard is PASSED
+
+2020-12-30 12:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/a_Dashboard' is clicked on
+
+2020-12-30 12:52:12 - [MESSAGE][PASSED] - com.application.appmanager.go_to_dashboard is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="3.132" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2020-12-30 12:52:17 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2020-12-30 12:52:17 - [TEST_STEP][PASSED] - com.application.Auth.logOutFromApplication(): com.application.Auth.logOutFromApplication is PASSED
+
+2020-12-30 12:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/btn_Logout' is clicked on
+
+2020-12-30 12:52:20 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-30 12:52:20 - [MESSAGE][PASSED] - com.application.Auth.logOutFromApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-30 12:51:08 - [TEST_SUITE][INCOMPLETE] - AfterSell: null]]></system-out>
+      <system-err><![CDATA[2020-12-30 12:51:08 - [TEST_SUITE][INCOMPLETE] - AfterSell: null]]></system-err>
+   </testsuite>
+</testsuites>

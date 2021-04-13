@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BeforeSale" time="196.701" tests="7" failures="0" skips="0" errors="0">
+   <testsuite name="BeforeSale" tests="7" failures="0" errors="0" time="196.701" skips="0" timestamp="2020-12-28 13:32:18" hostname="User - foysal-LPTP" id="Test Suites/BeforeSale">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201228_133208\\BeforeSale\\20201228_133209"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\PrismWebStory\\Reports\\20201228_133208\\BeforeSale\\20201228_133209\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - foysal-LPTP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.143"/>
+         <property name="sessionId" value="144cd6be2717c4c22e377da36f0c079e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="15.423" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:32:18 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2020-12-28 13:32:19 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:32:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-28 13:32:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-28 13:32:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-28 13:32:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-28 13:32:28 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-28 13:32:29 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-28 13:32:29 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-28 13:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-28 13:32:29 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Route" time="85.462" classname="Test Cases/Route" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:32:34 - [TEST_CASE][PASSED] - Test Cases/Route: Test Cases/Route
+
+2020-12-28 13:32:34 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:32:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-28 13:32:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-28 13:32:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-28 13:32:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-28 13:32:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-28 13:32:44 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-28 13:32:44 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-28 13:32:44 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-28 13:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-28 13:32:44 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:32:44 - [TEST_STEP][PASSED] - com.application.appmanager.get_next_route_number(): com.application.appmanager.get_next_route_number is PASSED
+
+2020-12-28 13:32:45 - [MESSAGE][PASSED] - com.application.appmanager.get_next_route_number is PASSED
+
+2020-12-28 13:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Route/Dashboard/span_Route Planning")): Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2020-12-28 13:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/span_Route Planning' is clicked on
+
+2020-12-28 13:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Route/Dashboard/a_Add Route")): Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2020-12-28 13:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Dashboard/a_Add Route' is clicked on
+
+2020-12-28 13:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Route/Add Route/Route Number_field"), currentRouteNumber.toString()): Text '85' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2020-12-28 13:32:48 - [MESSAGE][PASSED] - Text '85' is set on object 'Object Repository/Route/Add Route/Route Number_field'
+
+2020-12-28 13:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/clickoutside")): Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2020-12-28 13:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/clickoutside' is clicked on
+
+2020-12-28 13:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/sectionDropdown")): Object: 'Object Repository/Route/Add Route/sectionDropdown' is clicked on
+
+2020-12-28 13:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/sectionDropdown' is clicked on
+
+2020-12-28 13:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Route/Add Route/input_select2"), "D"): Text 'D' is set on object 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Route/Add Route/input_select2"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Route/Add Route/input_select2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Route/Add Route/input_select2'
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/button_Create Route")): Object: 'Object Repository/Route/Add Route/button_Create Route' is clicked on
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/button_Create Route' is clicked on
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Route/Add Route/routeConfirmation"), 5): Object 'Object Repository/Route/Add Route/routeConfirmation' is present
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - Object 'Object Repository/Route/Add Route/routeConfirmation' is present
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - com.application.appmanager.store_used_route(): com.application.appmanager.store_used_route is PASSED
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - com.application.appmanager.store_used_route is PASSED
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/a_Route Planning")): Object: 'Object Repository/Route/Add Route/a_Route Planning' is clicked on
+
+2020-12-28 13:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Route Planning' is clicked on
+
+2020-12-28 13:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Route/Add Route/a_Browse Route")): Object: 'Object Repository/Route/Add Route/a_Browse Route' is clicked on
+
+2020-12-28 13:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Add Route/a_Browse Route' is clicked on
+
+2020-12-28 13:32:51 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-28 13:32:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-28 13:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Route/Browse Routes/a_last")): Object: 'Object Repository/Route/Browse Routes/a_last' is clicked on
+
+2020-12-28 13:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Browse Routes/a_last' is clicked on
+
+2020-12-28 13:32:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Route/Browse Routes/route_td", ["text":currentRouteCode]), 3): Scroll to object 'Object Repository/Route/Browse Routes/route_td' successfully
+
+2020-12-28 13:33:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[(text() = '70D' or . = '70D')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-28 13:33:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Route/Browse Routes/route_td'. Try using Self-healing.
+
+2020-12-28 13:33:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Route/Browse Routes/route_td' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='First'])[1]/preceding::td[56]'.
+
+2020-12-28 13:33:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Route/Browse Routes/route_td' successfully
+
+2020-12-28 13:33:23 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Route/Browse Routes/route_td", ["text":currentRouteCode])): Object: 'Object Repository/Route/Browse Routes/route_td' is hovered
+
+2020-12-28 13:33:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[(text() = '70D' or . = '70D')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-28 13:33:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Route/Browse Routes/route_td'. Try using Self-healing.
+
+2020-12-28 13:33:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Route/Browse Routes/route_td' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='First'])[1]/preceding::td[56]'.
+
+2020-12-28 13:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Route/Browse Routes/route_td' is hovered]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create SR" time="23.142" classname="Test Cases/Create SR" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:33:59 - [TEST_CASE][PASSED] - Test Cases/Create SR: Test Cases/Create SR
+
+2020-12-28 13:34:00 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:34:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-28 13:34:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-28 13:34:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-28 13:34:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-28 13:34:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-28 13:34:11 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-28 13:34:11 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-28 13:34:11 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-28 13:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-28 13:34:11 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:34:11 - [TEST_STEP][PASSED] - com.application.appmanager.get_next_sr_name(): com.application.appmanager.get_next_sr_name is PASSED
+
+2020-12-28 13:34:11 - [MESSAGE][PASSED] - com.application.appmanager.get_next_sr_name is PASSED
+
+2020-12-28 13:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_HR")): Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-28 13:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-28 13:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_Add Employee")): Object: 'Object Repository/Create SR/a_Add Employee' is clicked on
+
+2020-12-28 13:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_Add Employee' is clicked on
+
+2020-12-28 13:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/input_Full Name_field"), currentSrName): Text 'katalon_sr_2_3_4' is set on object 'Object Repository/Create SR/input_Full Name_field'
+
+2020-12-28 13:34:15 - [MESSAGE][PASSED] - Text 'katalon_sr_2_3_4' is set on object 'Object Repository/Create SR/input_Full Name_field'
+
+2020-12-28 13:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/li_Contact No.(880)")): Object: 'Object Repository/Create SR/li_Contact No.(880)' is clicked on
+
+2020-12-28 13:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/li_Contact No.(880)' is clicked on
+
+2020-12-28 13:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/input_Contact No"), srPhone): Text '01825252525' is set on object 'Object Repository/Create SR/input_Contact No'
+
+2020-12-28 13:34:15 - [MESSAGE][PASSED] - Text '01825252525' is set on object 'Object Repository/Create SR/input_Contact No'
+
+2020-12-28 13:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/li_Email")): Object: 'Object Repository/Create SR/li_Email' is clicked on
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/li_Email' is clicked on
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/text - Email_field"), srEmail): Text 'katalon@katalon.com' is set on object 'Object Repository/Create SR/text - Email_field'
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Text 'katalon@katalon.com' is set on object 'Object Repository/Create SR/text - Email_field'
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/salary_input")): Object: 'Object Repository/Create SR/salary_input' is clicked on
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/salary_input' is clicked on
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - setText(findTestObject("Create SR/text - Salary_field"), srSalary): Text '10000' is set on object 'Object Repository/Create SR/text - Salary_field'
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Create SR/text - Salary_field'
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Create SR/label_Salary")): Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/label_Salary' is clicked on
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/button_Create Employee")): Object: 'Object Repository/Create SR/button_Create Employee' is clicked on
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/button_Create Employee' is clicked on
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - com.application.appmanager.store_created_sr(): com.application.appmanager.store_created_sr is PASSED
+
+2020-12-28 13:34:16 - [MESSAGE][PASSED] - com.application.appmanager.store_created_sr is PASSED
+
+2020-12-28 13:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_HR")): Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-28 13:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_HR' is clicked on
+
+2020-12-28 13:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create SR/a_Browse Employee")): Object: 'Object Repository/Create SR/a_Browse Employee' is clicked on
+
+2020-12-28 13:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SR/a_Browse Employee' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Assign route to sr" time="26.562" classname="Test Cases/Assign route to sr" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:34:23 - [TEST_CASE][PASSED] - Test Cases/Assign route to sr: Test Cases/Assign route to sr
+
+2020-12-28 13:34:23 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:34:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-28 13:34:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-28 13:34:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-28 13:34:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-28 13:34:30 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:34:33 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-12-28 13:34:33 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-28 13:34:33 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_sr_name(): com.application.appmanager.get_current_sr_name is PASSED
+
+2020-12-28 13:34:33 - [MESSAGE][PASSED] - com.application.appmanager.get_current_sr_name is PASSED
+
+2020-12-28 13:34:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assign route to sr/span_Route Planning")): Object: 'Object Repository/Assign route to sr/span_Route Planning' is clicked on
+
+2020-12-28 13:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/span_Route Planning' is clicked on
+
+2020-12-28 13:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assign route to sr/a_Browse Route")): Object: 'Object Repository/Assign route to sr/a_Browse Route' is clicked on
+
+2020-12-28 13:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/a_Browse Route' is clicked on
+
+2020-12-28 13:34:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-12-28 13:34:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-28 13:34:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Assign route to sr/a_Last")): Object: 'Object Repository/Assign route to sr/a_Last' is clicked on
+
+2020-12-28 13:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Assign route to sr/a_Last' is clicked on
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2020-12-28 13:34:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//table[@id="exampleDTC"]/tbody")): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - for ([row = 0, row < rows_count, (row++)]): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:42 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - tr_id = get(row).getAttribute("id"): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - for ([column = 0, column < columns_count, (column++)]): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - celltext = get(column).getText(): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - if (currentRouteCode == celltext): null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - new_xpath = "//tr[@id="" + tr_id + ""]/td[3]/select": null
+
+2020-12-28 13:34:43 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Assign route to sr/select_Choose").addProperty("xpath", EQUALS, new_xpath, true), currentSrName, true): All options with label 'katalon_sr_2_3_4' are selected in object 'Object Repository/Assign route to sr/select_Choose'  using regular expression
+
+2020-12-28 13:34:44 - [MESSAGE][PASSED] - All options with label 'katalon_sr_2_3_4' are selected in object 'Object Repository/Assign route to sr/select_Choose'  using regular expression
+
+2020-12-28 13:34:44 - [TEST_STEP][PASSED] - com.application.appmanager.create_sr_user_for_mobile_app(): com.application.appmanager.create_sr_user_for_mobile_app is PASSED
+
+2020-12-28 13:34:44 - [MESSAGE][PASSED] - com.application.appmanager.create_sr_user_for_mobile_app is PASSED
+
+2020-12-28 13:34:44 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Retailer" time="21.224" classname="Test Cases/Create Retailer" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:34:49 - [TEST_CASE][PASSED] - Test Cases/Create Retailer: Test Cases/Create Retailer
+
+2020-12-28 13:34:49 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:34:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-28 13:34:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-28 13:34:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-28 13:34:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-28 13:34:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-28 13:34:59 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-28 13:34:59 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-28 13:34:59 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-28 13:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-28 13:34:59 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:34:59 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-28 13:34:59 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-28 13:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Retailer/a_Retailer")): Object: 'Object Repository/Create Retailer/a_Retailer' is clicked on
+
+2020-12-28 13:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/a_Retailer' is clicked on
+
+2020-12-28 13:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Retailer/a_Add Retailer")): Object: 'Object Repository/Create Retailer/a_Add Retailer' is clicked on
+
+2020-12-28 13:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/a_Add Retailer' is clicked on
+
+2020-12-28 13:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Retailer/input_Retail Name_retailerName"), retailerName): Text 'Katalon Retailer' is set on object 'Object Repository/Create Retailer/input_Retail Name_retailerName'
+
+2020-12-28 13:35:03 - [MESSAGE][PASSED] - Text 'Katalon Retailer' is set on object 'Object Repository/Create Retailer/input_Retail Name_retailerName'
+
+2020-12-28 13:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Retailer/input_Owner name_retailerOwner"), retailerOwner): Text 'Katalon Owner' is set on object 'Object Repository/Create Retailer/input_Owner name_retailerOwner'
+
+2020-12-28 13:35:04 - [MESSAGE][PASSED] - Text 'Katalon Owner' is set on object 'Object Repository/Create Retailer/input_Owner name_retailerOwner'
+
+2020-12-28 13:35:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Create Retailer/select_Counter"), currentRouteCode, true): All options with label '85D' are selected in object 'Object Repository/Create Retailer/select_Counter'  using regular expression
+
+2020-12-28 13:35:05 - [MESSAGE][PASSED] - All options with label '85D' are selected in object 'Object Repository/Create Retailer/select_Counter'  using regular expression
+
+2020-12-28 13:35:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Retailer/input_Retailer Code_retailerCode"), retailerCode): Text 'katalon-123' is set on object 'Object Repository/Create Retailer/input_Retailer Code_retailerCode'
+
+2020-12-28 13:35:05 - [MESSAGE][PASSED] - Text 'katalon-123' is set on object 'Object Repository/Create Retailer/input_Retailer Code_retailerCode'
+
+2020-12-28 13:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Retailer/button_Save Retailer")): Object: 'Object Repository/Create Retailer/button_Save Retailer' is clicked on
+
+2020-12-28 13:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Retailer/button_Save Retailer' is clicked on
+
+2020-12-28 13:35:05 - [TEST_STEP][PASSED] - com.application.appmanager.create_store_for_mobile_app(): com.application.appmanager.create_store_for_mobile_app is PASSED
+
+2020-12-28 13:35:05 - [MESSAGE][PASSED] - com.application.appmanager.create_store_for_mobile_app is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browse Retailer" time="21.111" classname="Test Cases/Browse Retailer" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:35:10 - [TEST_CASE][PASSED] - Test Cases/Browse Retailer: Test Cases/Browse Retailer
+
+2020-12-28 13:35:11 - [TEST_STEP][PASSED] - com.application.Auth.loginIntoApplication(): com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:35:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-28 13:35:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-28 13:35:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-28 13:35:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-28 13:35:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-28 13:35:21 - [MESSAGE][PASSED] - Navigate to 'http://72.52.251.79/~prismwebs/prismv2/' successfully
+
+2020-12-28 13:35:21 - [MESSAGE][PASSED] - Text 'de2000' is set on object 'Object Repository/Auth/textField - pm _uname'
+
+2020-12-28 13:35:21 - [MESSAGE][PASSED] - Text 'Commonpwd' is set on object 'Object Repository/Auth/textField - pm _upass'
+
+2020-12-28 13:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/button_Login' is clicked on
+
+2020-12-28 13:35:21 - [MESSAGE][PASSED] - com.application.Auth.loginIntoApplication is PASSED
+
+2020-12-28 13:35:21 - [TEST_STEP][PASSED] - com.application.appmanager.get_current_route_number(): com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-28 13:35:21 - [MESSAGE][PASSED] - com.application.appmanager.get_current_route_number is PASSED
+
+2020-12-28 13:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Browse Retailer/a_Retailer")): Object: 'Object Repository/Browse Retailer/a_Retailer' is clicked on
+
+2020-12-28 13:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Retailer/a_Retailer' is clicked on
+
+2020-12-28 13:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Browse Retailer/a_Browse Retailer")): Object: 'Object Repository/Browse Retailer/a_Browse Retailer' is clicked on
+
+2020-12-28 13:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Browse Retailer/a_Browse Retailer' is clicked on
+
+2020-12-28 13:35:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Browse Retailer/select_Route"), currentRouteCode, true): All options with label '85D' are selected in object 'Object Repository/Browse Retailer/select_Route'  using regular expression
+
+2020-12-28 13:35:27 - [MESSAGE][PASSED] - All options with label '85D' are selected in object 'Object Repository/Browse Retailer/select_Route'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="2.708" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2020-12-28 13:35:32 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2020-12-28 13:35:32 - [TEST_STEP][PASSED] - com.application.Auth.logOutFromApplication(): com.application.Auth.logOutFromApplication is PASSED
+
+2020-12-28 13:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth/btn_Logout' is clicked on
+
+2020-12-28 13:35:34 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-28 13:35:34 - [MESSAGE][PASSED] - com.application.Auth.logOutFromApplication is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-28 13:32:18 - [TEST_SUITE][INCOMPLETE] - BeforeSale: null]]></system-out>
+      <system-err><![CDATA[2020-12-28 13:32:18 - [TEST_SUITE][INCOMPLETE] - BeforeSale: null]]></system-err>
+   </testsuite>
+</testsuites>
